@@ -1,80 +1,36 @@
-# 🚀 Next.js 14 + Neon Serverless PostgreSQL Boilerplate 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-##  Overview  
+## Getting Started
 
-Looking for a **Next.js starter template with PostgreSQL**? This boilerplate provides a ready-to-use setup for integrating **Neon PostgreSQL** with **Next.js 14** and **Prisma ORM**. Perfect for building modern, serverless applications with high scalability.  
+First, run the development server:
 
-Key Use Cases:  
-- **How to integrate Neon PostgreSQL with Next.js**  
-- **Serverless database setup with Prisma and Next.js**  
-- **Best Next.js boilerplate for 2024**  
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Next.js 14 (App Router + Server Actions) .   
-Neon (Serverless PostgreSQL Database) .   
-Prisma ORM (Type-safe database access) .   
-Perfect for serverless environments like Vercel or AWS Lambda.   
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Features 🛠️
-✅ Next.js 14 with App Router and TypeScript  .  
-✅ Neon PostgreSQL integration for serverless databases  .  
-✅ Prisma ORM for schema and database migrations  .  
-✅ Fully optimized for serverless functions and high performance  .  
-✅ Environment variables ready for seamless deployment .  
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Tech Stack ⚙️
-- Framework: Next.js 14
-- Database: Neon Serverless PostgreSQL
-- ORM: Prisma
-- Language: TypeScript
-- Deployment: Vercel / AWS Lambda
+## Learn More
 
-## Installation 📦
-1. Clone the Repository:  
- `git clone https://github.com/username/nextjs-neon-boilerplate.git
-cd nextjs-neon-boilerplate`
+To learn more about Next.js, take a look at the following resources:
 
-2. Install Dependencies:  
-`npm install`  
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-3. Set Up Environment Variables:  
-`Create a .env file in the root and add your Neon PostgreSQL connection string:`  
-`DATABASE_URL="postgresql://user:password@your-neon-db-url/dbname?sslmode=require&pgbouncer=true"`
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-4. Run Prisma Migrations:  
-`npx prisma migrate dev`
+## Deploy on Vercel
 
-5. Start Development Server:  
-`npm run dev`  
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Why Use This Boilerplate? 🤔
-* Zero Configuration: Preconfigured Prisma and Neon database setup.  
-* Serverless Optimized: Ideal for Vercel or AWS Lambda.  
-* Modern Tech: Uses Next.js 14 (App Router) for the best developer experience.  
-* Scalable: Neon’s serverless database ensures cost-efficiency and high availability.  
-
-## 🔍 Keywords
-
-- **Next.js 14 boilerplate**  
-- **Next.js PostgreSQL starter**  
-- **Prisma + Neon database integration**  
-- **Serverless Next.js project**  
-- **Vercel serverless database**  
-- **PostgreSQL for Next.js apps**  
-- **Next.js and Prisma starter kit**  
-
-
-This boilerplate is a **Next.js 14 starter kit** designed for building modern, scalable, and serverless applications. It integrates **Neon PostgreSQL** as the database and uses **Prisma** ORM for smooth database management. Ideal for **serverless deployments** on platforms like **Vercel** or AWS.  
-
-If you're looking for a **Next.js PostgreSQL starter** or a **Next.js and Prisma starter kit**, this is the perfect foundation for your project.  
-
-## 🔍 Search-Friendly Prompts  
-
-This boilerplate is optimized to help you:  
-
-- **Next.js starter template with PostgreSQL**  
-- **How to integrate Neon PostgreSQL with Next.js**  
-- **Serverless database setup with Prisma and Next.js**  
-- **Best Next.js boilerplate 2024**  
-- **Next.js 14 Prisma Neon starter**  
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
